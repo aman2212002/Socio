@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rightpage{
+    background-color: black;
+}
+.rightpage .card{
+    background-color: gray;
+    height: 100px;
+    width: 50%;
+
+}

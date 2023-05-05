@@ -1,0 +1,13 @@
+*{
+margin: 0;
+padding: 0;
+}
+.leftpage{
+    background-color: coral;
+
+}
+.leftpage .card{
+    background-color: yellow;
+    height: 100px;
+    width: 50%;
+}
