@@ -1,9 +1,10 @@
 import Home from "./pages/homepage/home";
-
+import Login from "./pages/login/login";
 function App() {
   return (
    <div>
-    <Home/>
+    {/* <Home/> */}
+<Login/>
    </div>
   );
 }

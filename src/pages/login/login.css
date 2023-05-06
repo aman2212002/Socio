@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+
+}
+.card .leftcard{
+    height: 50%;
+    width: 50%;
+    background-color: blue;
+    padding: 10px;
+}
+.card .leftcard .container{
+    background-color: aqua;
+    text-align: center;
+    display: block;
+    z-index: 1;
+}
+.card .rightcard{
+    background-color: yellow;
+    padding: 10px;
+    height: 50%;
+    width: 50%;
+}
+.card .rightcard .container{
+    background-color: aqua;
+    text-align: center;
+}
