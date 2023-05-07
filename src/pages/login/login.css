@@ -9,16 +9,16 @@ div{
    
     width: 100%;
 }
-.section1{
+.leftside{
 background-color: red;
 height: 500px;
-width: 33.3%;
+width: 100%;
 float: left;
 }
-.section2{
+.rightside{
     background-color: yellow;
     height: 500px;
-    width: 33.3%;
+    width: 100%;
     float: left;
 }
 .section3{
@@ -26,4 +26,7 @@ background-color: rgb(19, 85, 19);
 height: 500px;
 width: 33.33%;
 float: left;
+}
+.gutter{
+    width: 100%;
 }

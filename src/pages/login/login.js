@@ -1,19 +1,23 @@
 import "./login.css"
+import Split from 'react-split'
+
 function Login(){
     return(
+      <div>
+         <Split
+         sizes={[25, 75]}
+         minSize={100}
+         
+         gutterSize={3}
+         gutterAlign="center"
+         
+         direction="horizontal"
+         cursor="col-resize">
+       <div className="leftside">hello</div>
+       <div className="rightside">world</div>
+    </Split>
+      </div> 
        
-        <div>
-        
-    <div className="section1">
-        <h1>hello</h1>
-       
-    </div>
-    <div className="section2">
-        <h1>section2</h1>
-    </div>
-    <div className="section3"> <h1>section3</h1></div>
-   
-    </div>
     );
 }
 export default Login
