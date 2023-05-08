@@ -9,24 +9,31 @@ div{
    
     width: 100%;
 }
+.split{
+    display: flex;
+    flex-direction: row;
+}
 .leftside{
 background-color: red;
 height: 500px;
 width: 100%;
-float: left;
+
 }
 .rightside{
     background-color: yellow;
     height: 500px;
     width: 100%;
-    float: left;
+    
 }
-.section3{
-background-color: rgb(19, 85, 19);
-height: 500px;
-width: 33.33%;
-float: left;
-}
+
 .gutter{
-    width: 100%;
+   
+   grid-column-start: span;
+   
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.gutter.gutter-horizontal {
+    cursor: col-resize;
 }
