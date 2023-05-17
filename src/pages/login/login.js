@@ -6,7 +6,7 @@ function Login(){
       
          <Split className="split">
        <div className="leftside">hello</div>
-       <div className="rightside">world</div>
+       <div className="rightside">aman</div>
     </Split>
      
        
